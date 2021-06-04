@@ -1,0 +1,25 @@
+{
+	"name": "thp2_k8s_cm_secrets",
+	"version": "0.0.1",
+	"description": "The Humble Programmer 2 Kubernetes Hands-on for ConfigMap and Secrets",
+	"scripts": {
+		"build": "webpack",
+		"dev":   "webpack --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AtomiCloud/thp2_cm_secrets.git"
+	},
+	"author": "kirinnee",
+	"dependencies": {
+		"ts-loader": "^5.2.1",
+		"webpack": "^4.20.2",
+		"webpack-cli": "^3.1.2",
+		"@types/inquirer": "0.0.43",
+		"@types/node": "^10.11.3",
+		"@types/webpack": "^4.4.13",
+		"chalk": "^2.4.1",
+		"ts-node": "^7.0.1",
+		"typescript": "^3.1.1"
+	}
+}
